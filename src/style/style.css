@@ -1,0 +1,128 @@
+html {
+    height:100%;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0px;
+}
+body {
+    height:100%;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+ul {
+    list-style:none;
+}
+
+#inputedRoomName {
+    border:solid black 1px;
+}
+
+.chatApp{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.rowC {
+    display: flex;
+    flex-direction:row;
+    height: 90%;
+    width: 100%;
+    border-bottom: 1px black solid;
+    position: fixed;
+}
+
+.room-tab {
+    padding: 10px;
+    border-right: solid black 1px;
+    width: 12%;
+    height: 100%;
+    margin: 0px;
+    box-sizing:border-box;
+}
+
+.room-tab .room-list{
+    padding-right: 5px;
+    height:60%;
+    position:fixed;
+    box-sizing:border-box;
+    border-bottom: 1px black solid;
+    margin:0px;
+    overflow-y:auto;
+    width:11%;
+}
+
+.room-list ul{
+    margin:0px;
+    padding:0px;
+}
+
+.room-tab .new-room{
+    padding-right: 5px;
+    height:30%;
+    top:60%;
+    position:fixed;
+    width:10%
+    box-sizing:border-box;
+}
+
+#newRoomForm {
+    width:100%;
+    box-sizing:border-box;
+}
+
+#newRoomForm input {
+    width:100%
+    box-sizing:border-box;
+}
+
+.chat-tab {
+    padding: 10px;
+    width: 88%;
+    height: 100%;
+    list-style:none;
+    margin: 0px;
+    box-sizing:border-box;
+    overflow-y:scroll;
+}
+
+.chat-tab li:nth-child(odd){
+    background:#eee;
+}
+
+#messageBox {
+    box-sizing:border-box;
+    width:99%;
+    height: 7%;
+    position:fixed;
+    display: flex;
+    flex-direction:row;
+    margin:0px;
+    padding:0px;
+
+}
+
+#messageBox input {
+    width:90%;
+    box-sizing:border-box;
+}
+
+#messageBox input[type="text"]{
+    font-size:30px;
+}
+
+#messageBox button {
+    width:10%;
+    box-sizing:border-box;
+}
+.chat-box{
+    height: 10%;
+    padding: 10px;
+    width:100%
+    display:flex;
+    flex-direction:row;
+    position:fixed;
+    top: 90%;
+}
